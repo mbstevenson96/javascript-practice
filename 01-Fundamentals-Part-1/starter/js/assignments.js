@@ -4,7 +4,7 @@
 
 let country = 'USA'
 let continent = 'North America'
-let population = '336 milllion'
+let population = 336
 
 console.log(country);
 console.log(continent);
