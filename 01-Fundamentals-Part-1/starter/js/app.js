@@ -1,3 +1,9 @@
-let firstName = 'Jonas'
+// let firstName = 'Jonas'
 
-console.log(firstName);
+// console.log(firstName);
+
+// true
+// console.log(true);
+
+let javascriptIsFun = true
+console.log(javascriptIsFun);  
