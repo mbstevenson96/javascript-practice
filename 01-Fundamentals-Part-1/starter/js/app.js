@@ -33,24 +33,34 @@
 
 
 // CODE CHALLENGE 1
-const markMass1 = 78
-const markHeight1 = 1.69
-const johnMass1 = 92
-const johnHeight1 = 1.95
+// const markMass1 = 78
+// const markHeight1 = 1.69
+// const johnMass1 = 92
+// const johnHeight1 = 1.95
 
-const markMass2 = 95
-const markHeight2 = 1.88
-const johnMass2 = 85
-const johnHeight2 = 1.76
+// const markMass2 = 95
+// const markHeight2 = 1.88
+// const johnMass2 = 85
+// const johnHeight2 = 1.76
 
-let markBMI1 = markMass1 / markHeight1 ** 2
-let johnBMI1 = johnMass1 / johnHeight1 ** 2
+// let markBMI1 = markMass1 / markHeight1 ** 2
+// let johnBMI1 = johnMass1 / johnHeight1 ** 2
 
-let markBMI2 = markMass2 / markHeight2 ** 2
-let johnBMI2 = johnMass2 / johnHeight2 ** 2
+// let markBMI2 = markMass2 / markHeight2 ** 2
+// let johnBMI2 = johnMass2 / johnHeight2 ** 2
 
-console.log(markBMI1, markBMI2, johnBMI1, johnBMI2);
+// console.log(markBMI1, markBMI2, johnBMI1, johnBMI2);
 
-let markHigherBMI1 = markBMI1 > johnBMI1
-let markHigherBMI2 = markBMI2 > johnBMI2
-console.log(markHigherBMI1, markHigherBMI2);
+// let markHigherBMI1 = markBMI1 > johnBMI1
+// let markHigherBMI2 = markBMI2 > johnBMI2
+// console.log(markHigherBMI1, markHigherBMI2);
+
+
+
+// IF ELSE PRACTICE
+const age = 19
+const isOldEnough = age >= 18
+
+if(isOldEnough) {
+  console.log('Sarah can start driving 🚗');
+}
