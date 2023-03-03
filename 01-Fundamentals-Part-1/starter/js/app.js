@@ -58,9 +58,11 @@
 
 
 // IF ELSE PRACTICE
-const age = 19
+const age = 15
 const isOldEnough = age >= 18
 
 if(isOldEnough) {
   console.log('Sarah can start driving 🚗');
+} else {
+  console.log('Sarah is not old enough');
 }
