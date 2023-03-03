@@ -64,5 +64,6 @@ const isOldEnough = age >= 18
 if(isOldEnough) {
   console.log('Sarah can start driving 🚗');
 } else {
-  console.log('Sarah is not old enough');
-}
+  const yearsLeft = 18 - age
+  console.log(`Sarah is too young. Wait another ${yearsLeft} years`);
+} 
