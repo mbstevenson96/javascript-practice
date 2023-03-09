@@ -58,12 +58,18 @@
 
 
 // IF ELSE PRACTICE
-const age = 15
-const isOldEnough = age >= 18
+// const age = 15
+// const isOldEnough = age >= 18
 
-if(isOldEnough) {
-  console.log('Sarah can start driving 🚗');
-} else {
-  const yearsLeft = 18 - age
-  console.log(`Sarah is too young. Wait another ${yearsLeft} years`);
-} 
+// if(isOldEnough) {
+//   console.log('Sarah can start driving 🚗');
+// } else {
+//   const yearsLeft = 18 - age
+//   console.log(`Sarah is too young. Wait another ${yearsLeft} years`);
+// } 
+
+
+// CONVERSION AND COERCION PRACTICE
+const inputYear = '1991'
+console.log(Number(inputYear) + 18);
+console.log(inputYear + 18);
