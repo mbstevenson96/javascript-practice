@@ -75,3 +75,5 @@ console.log(Number(inputYear) + 18);
 console.log(inputYear + 18);
 
 console.log(Number('Jonas'));
+
+console.log(String(45));
