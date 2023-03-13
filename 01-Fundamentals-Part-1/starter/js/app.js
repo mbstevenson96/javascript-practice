@@ -69,11 +69,16 @@
 // } 
 
 
-// CONVERSION AND COERCION PRACTICE
+// TYPE CONVERSION PRACTICE
 const inputYear = '1991'
-console.log(Number(inputYear) + 18);
-console.log(inputYear + 18);
+// console.log(Number(inputYear) + 18);
+// console.log(inputYear + 18);
 
-console.log(Number('Jonas'));
+// console.log(Number('Jonas'));
 
-console.log(String(45));
+// console.log(String(45));
+
+
+// TYPE COERCION PRACTICE
+console.log(" I'm " + 23 + " years old.");
+console.log('23' - '10' - 3);
