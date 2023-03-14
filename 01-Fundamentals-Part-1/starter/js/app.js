@@ -80,5 +80,14 @@ const inputYear = '1991'
 
 
 // TYPE COERCION PRACTICE
-console.log(" I'm " + 23 + " years old.");
-console.log('23' - '10' - 3);
+// console.log(" I'm " + 23 + " years old.");
+// console.log('23' - '10' - 3);
+
+
+// BOOLEAN PRACTICE
+const money = 0
+if(money) {
+  console.log("Don't spend it all");
+}else {
+  console.log('You should get a job');
+}
